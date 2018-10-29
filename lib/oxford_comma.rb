@@ -5,8 +5,8 @@ def oxford_comma(array)
   elsif array_size ==2
     return "#{array[0]} and #{array[1]}"
   else
-    last_item=array[array_size-1];
-    return array.pop();
+    last_item=array.pop();
+    return array 
     #array_part_2=array.join(", ")
     #return final_array=array_part_2 + "and #{last_item}"
   end
