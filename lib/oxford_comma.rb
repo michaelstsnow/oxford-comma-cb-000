@@ -6,4 +6,5 @@ def oxford_comma(array)
   }
   end
   array_part_3=array_part_2.pop;
+  array_part_3.join
 end
